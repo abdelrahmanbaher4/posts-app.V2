@@ -125,9 +125,9 @@ https://github.com/abdelrahmanbaher4/posts-app.V2/blob/9246f8f5c181e9d4922f0869e
 
 ### Back-End Architecture (To Be Added)
 * I tried to add user authentication/authorization and i have used `clerk.dev` library and it was working fine , but then i encounterd many errros , and i couldn't have enough time to fix it, but will do it later :)
-  *  ![alt-text]()
+  *  ![alt text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXZ3MHVxcnI1Y2gzanZzbHNqeDdwY3o2YWtrMnF6czA3c2x6MWF2dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WFrxrfrUC5ktUFT7PX/giphy.gif)
 * I added also `MYSQL` DB hosted on `planetScale.com` and i have used `prisma` to be able to track my `DB` changes
   * Here is the Schema Desgin
-    * [!alt-text](https://github.com/abdelrahmanbaher4/posts-app.V2/blob/main/Db%20Schema1.png?raw=true)
-    * [!alt-text](https://github.com/abdelrahmanbaher4/posts-app.V2/blob/main/Db%20Schema%202.png?raw=true)
+    * ![alt text](https://github.com/abdelrahmanbaher4/posts-app.V2/blob/main/Db%20Schema1.png?raw=true)
+    * ~[!alt text](https://github.com/abdelrahmanbaher4/posts-app.V2/blob/main/Db%20Schema%202.png?raw=true)
 

@@ -1,0 +1,127 @@
+.post_container {
+    display: flex;
+    flex-flow: column;
+
+    .creator {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        gap: 1rem;
+        img {
+            height:45px;
+            width:45px;
+            border-radius: 50%;
+        }
+
+        .user {
+            color: #5F63CD;
+            font-weight: 500;
+        }
+    }
+
+    .post {
+        margin-top: 10px;
+    }
+
+    .post {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        .poster {
+            position: relative;
+            img {
+                width: 100%;
+                max-width: 100%;
+                border-radius: 20px;
+                height: 300px;
+                position: relative;
+            }
+
+            &_content {
+                position: absolute;
+                bottom: 30px;
+                display: block;
+                padding: 0px 20px;
+                color: white;
+                font-size: 18px;
+                display: flex;
+                flex-flow: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+
+                .titles {
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: center;
+                    .name {
+                        font-size: 14px;
+                    }
+                    .price {
+                        font-weight: 900;
+                        font-size: 18px;
+                    }
+                }
+
+                .like {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+
+        .info {
+            display:flex;
+            flex-flow: column;
+            justify-content: space-around;
+
+            .likes {
+                display: flex;
+                flex-flow: row;
+                align-items: center;
+                gap: 0.5rem;
+                svg {
+                    width: 20px;
+                    height: 30px;
+                }
+            }
+
+            .details {
+                padding-left: 5px;
+                display: flex;
+                flex-flow: column;
+                .description {
+                    color: #8D8D8D;
+                }
+                .tags {
+                    color: #4A5BDD;
+                }
+            }
+            .view_comments {
+                padding-left: 5px;
+                margin-top: 14px;
+                color: #b7b5b5;
+            }
+        }
+
+    }
+     
+    .line {
+        color: red;
+        width: 100%;
+        height: 2px;
+        margin-top: 30px;
+        color: #b7b5b5;
+        opacity: 30%;
+    }
+
+}
+
+
+
+
+@media (min-width: 768px) {
+    .post_container {
+       min-width: 600px;
+    }
+  }
